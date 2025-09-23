@@ -56,11 +56,9 @@ def test_delete_and_missing():
 def test_load_handles_bad_json(tmp_path, monkeypatch):
     import app.io_json as io_json
 
-    # Point to a specific file and write bad JSON, then ensure load resets store and writes .bak
     monkeypatch.setattr(io_json, "FILE", tmp_path / "tarea.json", raising=True)
     io_json.FILE.write_text("{bad json", encoding="utf-8")
     data = io_json._load_json()
     assert data == {}
-    # backup created
     bak = io_json.FILE.with_suffix(io_json.FILE.suffix + ".bak")
     assert bak.exists()
