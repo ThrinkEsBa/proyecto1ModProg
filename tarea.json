@@ -1,0 +1,113 @@
+{
+  "1": {
+    "titulo": "Task One",
+    "prioridad": 5,
+    "fecha": "2025-09-09",
+    "descripcion": "desc",
+    "tags": [
+      "work",
+      "urgent"
+    ],
+    "completada": false
+  },
+  "2": {
+    "titulo": "A",
+    "prioridad": 2,
+    "fecha": "2025-01-01",
+    "descripcion": "x",
+    "tags": [],
+    "completada": true
+  },
+  "3": {
+    "titulo": "B",
+    "prioridad": 4,
+    "fecha": "2025-01-02",
+    "descripcion": "bbb",
+    "tags": [],
+    "completada": false
+  },
+  "4": {
+    "titulo": "C",
+    "prioridad": 1,
+    "fecha": "2025-01-03",
+    "descripcion": "ccc",
+    "tags": [],
+    "completada": false
+  },
+  "5": {
+    "titulo": "hola",
+    "prioridad": 3,
+    "fecha": "2025-09-09",
+    "descripcion": "",
+    "tags": [],
+    "completada": false
+  },
+  "6": {
+    "titulo": "Alpha",
+    "prioridad": 3,
+    "fecha": "2025-01-01",
+    "descripcion": "",
+    "tags": [],
+    "completada": false
+  },
+  "11": {
+    "titulo": "B",
+    "prioridad": 4,
+    "fecha": "2025-01-02",
+    "descripcion": "",
+    "tags": [
+      "x"
+    ],
+    "completada": false
+  },
+  "12": {
+    "titulo": "A",
+    "prioridad": 3,
+    "fecha": "2025-01-01",
+    "descripcion": "",
+    "tags": [],
+    "completada": false
+  },
+  "13": {
+    "titulo": "B",
+    "prioridad": 4,
+    "fecha": "2025-01-02",
+    "descripcion": "",
+    "tags": [
+      "x"
+    ],
+    "completada": false
+  },
+  "14": {
+    "titulo": "Alpha",
+    "prioridad": 3,
+    "fecha": "2025-01-01",
+    "descripcion": "",
+    "tags": [],
+    "completada": false
+  },
+  "15": {
+    "titulo": "Go",
+    "prioridad": 4,
+    "fecha": "2025-02-02",
+    "descripcion": "",
+    "tags": [],
+    "completada": true
+  },
+  "16": {
+    "titulo": "Do groceries",
+    "prioridad": 3,
+    "fecha": "2025-01-01",
+    "descripcion": "milk and eggs",
+    "tags": [],
+    "completada": false
+  },
+  "17": {
+    "titulo": "Email",
+    "prioridad": 3,
+    "fecha": "2025-01-01",
+    "descripcion": "follow up",
+    "tags": [],
+    "completada": false
+  }
+}
